@@ -11,8 +11,10 @@ class App
   end
 
   def process
-    {
-      response: 'ok!',
-    }
+    { path: @request.path, params: @request.params }
+    # or something like:
+    # {
+    #   response: 'ok!',
+    # }
   end
 end
