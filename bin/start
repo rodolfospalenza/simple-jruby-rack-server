@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export APP_ENV=production
+export APP_PORT=3000
+java -jar simple-jruby-rack-server.jar run.rb
